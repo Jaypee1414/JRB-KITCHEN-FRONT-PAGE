@@ -4,7 +4,7 @@
 }
 
 .main{
-    background-image: url(wooden2.jpg);
+    background-image: url(background3.jpeg);
     width: 100%;
     background: linear-gradient(to top black)50%;
     background-position: center;
@@ -53,13 +53,13 @@
 }
 
 .main .message{
-    color: white;
     padding-left: 40px;
     margin-top: 110px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 } 
 
 .main .message h2{
+    color: white;
     font-size: 45px;
 }
 
@@ -71,9 +71,10 @@
     line-height: 140%;
     font-size: 20px;
     font-family: Candara Light;
+    color: linen;
 } 
 #SERVES{
-    background: linear-gradient(50deg, black, yellowgreen, black);
+    background-color: darkslategrey;
     height: 250px;
     width: 100%;
 } 
@@ -81,12 +82,13 @@
 #SERVES h2{
     padding: 20px 40px;
     text-align: center;
-    font-family: EngraversGothic BT;
+    font-family: Adobe Gothic Std B;
     font-size: 30px;
-    color: yellowgreen;
-    background-color: black;
+    color: black;
+    background:linear-gradient(45deg, black, linen, white, black) ;
     margin-right: 350px;   
     margin-left: 350px;
     border-radius: 60% 60% 0 0;
-    border-bottom: 4px solid white ;
+    border-bottom: 4px solid black;
 } 
+
