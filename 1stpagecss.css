@@ -75,7 +75,7 @@
 } 
 #SERVES{
     background-color: darkslategrey;
-    height: 250px;
+    height: 500px;
     width: 100%;
 } 
 
@@ -92,3 +92,16 @@
     border-bottom: 4px solid black;
 } 
 
+#SERVES .Burger{
+    display: flex;
+    padding: 20px 190px;
+    justify-content: space-around;
+}
+
+#SERVES .Burger img{
+    width: 270px;
+    height: 250px;
+    border-radius: 10px;
+    border: 2px solid white;
+
+}
