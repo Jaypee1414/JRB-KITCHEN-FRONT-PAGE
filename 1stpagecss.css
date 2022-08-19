@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background-image: url(wooden2.jpg);
+    width: 100%;
+    background: linear-gradient(to top black)50%;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+}
+
+.nav{
+    padding: 10px 10px;
+   
+}
+
+.main .logo{
+    color: aquamarine;
+    padding: 20px 40px;
+    float: left;
+    font-family: EngraversGothic BT;
+    cursor: pointer;
+}
+
+
+.nav ul {
+    display: inline-flex;
+    padding-top: 33px;  
+    margin-left: 90px;
+  
+}
+
+
+.navigator ul li{
+   margin-left: 70px;
+   list-style: none;
+   
+}
+
+.navigator ul li a{
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        transition: 0.2s ease-in-out;
+}
+
+.navigator ul li a:hover{
+    color: greenyellow;
+}
+
+.main .message{
+    color: white;
+    padding-left: 40px;
+    margin-top: 110px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+
+.main .message h2{
+    font-size: 45px;
+}
+
+.main .message span{
+    color: yellow;
+} 
+
+.main .message p{
+    line-height: 140%;
+    font-size: 20px;
+    font-family: Candara Light;
+} 
+#SERVES{
+    background: linear-gradient(50deg, black, yellowgreen, black);
+    height: 250px;
+    width: 100%;
+} 
+
+#SERVES h2{
+    padding: 20px 40px;
+    text-align: center;
+    font-family: EngraversGothic BT;
+    font-size: 30px;
+    color: yellowgreen;
+    background-color: black;
+    margin-right: 350px;   
+    margin-left: 350px;
+    border-radius: 60% 60% 0 0;
+    border-bottom: 4px solid white ;
+} 
