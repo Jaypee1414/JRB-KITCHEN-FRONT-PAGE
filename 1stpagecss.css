@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .main{
     background-image: url(background3.jpeg);
     width: 100%;
@@ -74,7 +78,11 @@
     color: linen;
 } 
 #SERVES{
+    background-image: url(wooden2.jpeg);
     background-color: darkslategrey;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 500px;
     width: 100%;
 } 
@@ -86,22 +94,24 @@
     font-size: 30px;
     color: black;
     background:linear-gradient(45deg, black, linen, white, black) ;
-    margin-right: 350px;   
-    margin-left: 350px;
+    margin-right: 400px;   
+    margin-left: 400px;
     border-radius: 60% 60% 0 0;
     border-bottom: 4px solid black;
 } 
 
+
 #SERVES .Burger{
     display: flex;
-    padding: 20px 190px;
+    padding: 60px 190px;
     justify-content: space-around;
 }
 
 #SERVES .Burger img{
-    width: 270px;
-    height: 250px;
+    width: 230px;
+    height: 220px;
     border-radius: 10px;
-    border: 2px solid white;
-
+    border: 2px solid black;
+    box-shadow: 0px 0px 20px 2px white;
 }
+
