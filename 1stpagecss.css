@@ -79,8 +79,9 @@ html{
 } 
 #SERVES{
     background-color: black;
-    height: 556px;
+    height: 320px;
     width: 100%;
+    border-bottom: 2px solid yellow ;
 } 
 
 
@@ -101,7 +102,11 @@ html{
     font-family: 'Courier New', Courier, monospace;
 }
 
-#SERVES .Food h2{
+#SERVES .Burger-name{
+    background-color: black;
+}
+
+#SERVES .Burger-name h2{
     padding: 20px 40px;
     text-align: center;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -119,8 +124,11 @@ html{
 
 #SERVES .Burger{
     display: flex;
-    padding: 60px 190px;
+    padding: 60px 110px;
     justify-content: space-around;
+    background-color: black;
+    height: 88px;
+
 }
 
 #SERVES .Burger img{
@@ -131,3 +139,71 @@ html{
     box-shadow: 0px 0px 20px 2px white;
 }
 
+#SERVES .Milktea-name{
+    background-color: black;
+}
+#SERVES .Milktea-name h2{
+    padding: 20px 40px;
+    text-align: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    color: black;
+    background:linear-gradient(45deg, black, linen,lightgoldenrodyellow, white, black) ;
+    margin-right: 400px;   
+    margin-left: 400px;
+    box-shadow: 0px 0px 10px 2px darksalmon;
+    border-radius: 60% 60% 0 0;
+    border-bottom: 4px solid coral;
+}
+
+#SERVES .milktea{
+    display: flex;
+    padding: 60px 120px;
+    justify-content: space-around;
+    background-color: black;
+    height: 88px;
+    border-bottom: 2px solid yellow;
+}
+
+#SERVES .milktea img{
+    width: 230px;
+    height: 220px;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 0px 0px 20px 2px white;
+}
+
+#SERVES .Fries-name{
+    background-color: black;
+}
+
+#SERVES .Fries-name h2{
+    padding: 20px 40px;
+    text-align: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    color: black;
+    background:linear-gradient(45deg, black, linen,lightgoldenrodyellow, white, black) ;
+    margin-right: 400px;   
+    margin-left: 400px;
+    box-shadow: 0px 0px 10px 2px darksalmon;
+    border-radius: 60% 60% 0 0;
+    border-bottom: 4px solid coral;
+}
+
+#SERVES .fries{
+    display: flex;
+    padding: 60px 120px;
+    justify-content: space-around;
+    background-color: black;
+    height: 88px;
+    border-bottom: 2px solid yellow;
+}
+
+#SERVES .fries img{
+    width: 230px;
+    height: 220px;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 0px 0px 20px 2px white;
+}
