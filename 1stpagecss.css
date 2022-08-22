@@ -209,10 +209,18 @@ html{
 }
 
 #LOCATION{
+    display: flex;
     padding: 20px 40px;
     margin-top: 100%;
     background-color: black;
+    border-bottom: 5px solid rgb(35, 126, 179);
+    height: 450px;
 
+}
+
+#LOCATION .details {
+    flex: 1;
+    
 }
 
 #LOCATION h2,h3,h4{
@@ -224,4 +232,25 @@ html{
     line-height: 20px;
     font-family: 'Courier New', Courier, monospace;
     color: white;
+}
+
+#LOCATION .frame{
+    width: 200px;
+    height: 90px;
+    flex: 1;
+    margin-left: 90px;
+}
+
+#CONTACTS{
+    background-color: black;
+    color: white;
+    margin-top: 120px;
+    height: 200px;
+}
+
+#CONTACTS p{
+    text-align: center;
+    font-family:monospace;
+    line-height: 20px;
+
 }
