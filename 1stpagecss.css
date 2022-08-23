@@ -246,6 +246,7 @@ html{
     color: white;
     margin-top: 120px;
     height: 200px;
+    
 }
 
 #CONTACTS p{
@@ -254,3 +255,29 @@ html{
     line-height: 20px;
 
 }
+
+#CONTACTS .h{
+    width: 1200px;
+    padding-bottom: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+#CONTACTS .icon{
+    display: flex;
+    margin-bottom: 20px;
+    color: white;
+    width: 500px;
+    margin-left: 480px;
+    
+}
+
+#CONTACTS .icon > div{
+    width: 90px;
+    height: 30px;
+    cursor: pointer;
+}
+
+
+
+
