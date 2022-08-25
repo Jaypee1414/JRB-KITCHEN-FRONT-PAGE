@@ -343,11 +343,33 @@ html{
     margin-left: 90px;
 }
 
+#LOCATION .details #DETAILS{
+    margin-top: 30px;
+    background-color: yellowgreen;
+    width: 145px;
+    border-radius: 10px;
+    padding: 2px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+#LOCATION .details #DETAILS:hover{
+    background-color: white;
+}
+
+#LOCATION .details #DETAILS p{
+    margin-left: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    padding: 5px;
+    color: black;
+    font-weight: bold;
+}
+
 #CONTACTS{
     background-color: black;
     color: white;
     margin-top: 120px;
-    height: 200px;
+    height: 170px;
     
 }
 
@@ -363,7 +385,7 @@ html{
     padding-bottom: 1px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 20px;
+    margin-bottom: 2px;
 }
 #CONTACTS .icon{
     display: flex;
