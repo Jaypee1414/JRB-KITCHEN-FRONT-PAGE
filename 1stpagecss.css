@@ -77,6 +77,23 @@ html{
     color: linen;
 } 
 
+.main .message h3{
+    background-color: black;
+    width: 130px;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 2px 2px yellowgreen;
+    font-family:'Courier New', Courier, monospace ;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.main .message h3:hover{
+    background: greenyellow;
+    color: black;
+}
+
 .main .form{
     width: 250px;
     height: 350px;
