@@ -7,6 +7,12 @@ html{
     scroll-behavior: smooth;
 }
 
+body{
+    background: rgba(0, 0, 0, 0.7) url(wooden2.jpeg);
+    background-position: center;
+    background-blend-mode: darken;
+}
+
 .main{
     background-image: url(background3.jpeg);
     width: 100%;
@@ -14,6 +20,7 @@ html{
     background-position: center;
     background-size: cover;
     height: 700px;
+   
 }
 
 .nav{
