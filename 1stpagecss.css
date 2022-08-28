@@ -248,14 +248,20 @@ body{
     border-bottom: 4px solid coral;
 }
 
-
-
+#SERVES .Burger-name p{
+    color: aliceblue;
+    padding: 20px 40px;
+    text-align: center;
+    line-height: 30px;
+    padding-top: 40px;
+    font-family: sans-serif;
+}
 #SERVES .Burger{
     display: flex;
-    padding: 60px 180px;
+    padding: 10px 180px;
     justify-content: space-around;
     background-color: black;
-    height: 88px;
+    height: 150px;
     border-bottom: 5px solid yellowgreen;
 }
 #SERVES .Burger img{
