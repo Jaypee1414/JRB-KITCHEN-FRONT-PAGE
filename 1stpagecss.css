@@ -205,6 +205,7 @@ body{
     color:yellowgreen
 }
 
+
 #SERVES{
     background-color: black;
     height: 320px;
@@ -359,6 +360,7 @@ body{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing: 2px;
     border-bottom: 5px solid black;
+    text-transform: uppercase;
 }
 
 #SERVES .Burger .listTwo .star{
@@ -420,6 +422,7 @@ body{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing: 2px;
     border-bottom: 5px solid black;
+    text-transform: uppercase;
 }
 
 #SERVES .Burger .listThree .star{
@@ -494,6 +497,7 @@ body{
     margin-top: 8px;
     box-shadow: 10px 10px 0px 0px black;
     transition: 0.5s;
+    display: block;
 }
 
 #SERVES .milktea img:hover{
@@ -501,7 +505,165 @@ body{
     z-index: 5;
     box-shadow: 0px 0px 5px 2px rgb(110, 110, 110);
 }
+#SERVES .milktea .listOne{
+    transition: 0.5s;
+}
+#SERVES .milktea .listOne:hover{
+    width: 250px;
+    margin-top: 40px;
+}
 
+#SERVES .milktea .listOne h3{
+    color: black;
+    position: absolute;
+    margin-top: 240px;
+    margin-left: 15px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    border-bottom: 5px solid black;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+#SERVES .milktea .listOne ul{
+    list-style: none;
+    display: inline-flex;
+    margin-top: 290px;
+    margin-left: -230px;
+    position: absolute;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(29, 29, 28);
+}
+
+#SERVES .milktea .listOne ul li {
+    margin-left: 5px;
+    font-size: 23px;
+}
+
+#SERVES .milktea .listOne ul p{
+    color: black;
+    margin-top: 5px;
+}
+
+#SERVES .milktea .listTwo h3{
+    color: black;
+    position: absolute;
+    margin-top: 240px;
+    margin-left: 15px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    border-bottom: 5px solid black;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+#SERVES .milktea .listTwo ul{
+    list-style: none;
+    display: inline-flex;
+    margin-top: 290px;
+    margin-left: -230px;
+    position: absolute;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(29, 29, 28);
+}
+
+#SERVES .milktea .listTwo ul li {
+    margin-left: 5px;
+    font-size: 23px;
+}
+
+#SERVES .milktea .listTwo ul p{
+    color: black;
+    margin-top: 5px;
+}
+
+#SERVES .milktea .listTwo{
+    transition: 0.5s;
+}
+#SERVES .milktea .listTwo:hover{
+    width: 250px;
+    margin-top: 40px;
+}
+
+#SERVES .milktea .listThree h3{
+    color: black;
+    position: absolute;
+    margin-top: 240px;
+    margin-left: 15px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    border-bottom: 5px solid black;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+#SERVES .milktea .listThree ul{
+    list-style: none;
+    display: inline-flex;
+    margin-top: 290px;
+    margin-left: -230px;
+    position: absolute;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(29, 29, 28);
+}
+
+#SERVES .milktea .listThree ul li{
+    margin-left: 5px;
+    font-size: 23px;
+}
+
+#SERVES .milktea .listThree ul p{
+    color: black;
+    margin-top: 5px;
+}
+
+#SERVES .milktea .listThree{
+    transition: 0.5s;
+}
+
+#SERVES .milktea .listThree:hover{
+    width: 250px;
+    margin-top: 40px;
+}
+
+#SERVES .milktea .listFour h3{
+    color: black;
+    position: absolute;
+    margin-top: 240px;
+    margin-left: 15px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    border-bottom: 5px solid black;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+#SERVES .milktea .listFour ul{
+    list-style: none;
+    display: inline-flex;
+    margin-top: 290px;
+    margin-left: -230px;
+    position: absolute;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(29, 29, 28);
+}
+#SERVES .milktea .listFour ul li{
+    margin-left: 5px;
+    font-size: 23px;
+}
+#SERVES .milktea .listFour ul p{
+    color: black;
+    margin-top: 5px;
+}
+
+#SERVES .milktea .listFour{
+    transition: 0.5s;
+}
+
+#SERVES .milktea .listFour:hover{
+    width: 250px;
+    margin-top: 40px;
+}
 /*FRIES CLASS*/
 #SERVES .Fries-name p{
     color: aliceblue;
@@ -534,7 +696,7 @@ body{
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 30px;
     color: black;
-    background:linear-gradient(45deg, black, linen,lightgoldenrodyellow, white, black) ;
+    background: linear-gradient(45deg,#ffafbd , #ffc3a0);
     margin-right: 400px;   
     margin-left: 400px;
     box-shadow: 0px 0px 10px 2px darksalmon;
@@ -568,6 +730,161 @@ body{
     box-shadow: 0px 0px 5px 2px rgb(110, 110, 110);
 }
 
+#SERVES .fries .listOne h3{
+    color: black;
+    position: absolute;
+    margin-top: 240px;
+    margin-left: 15px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    border-bottom: 5px solid black;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+#SERVES .fries .listOne ul{
+    list-style: none;
+    display: inline-flex;
+    margin-top: 290px;
+    margin-left: -230px;
+    position: absolute;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(29, 29, 28);
+}
+
+#SERVES .fries .listOne ul li{
+    margin-left: 5px;
+    font-size: 23px;
+}
+
+#SERVES .fries .listOne ul p{
+    color: black;
+    margin-top: 5px;
+}
+#SERVES .fries .listOne{
+    transition: 0.5s;
+}
+#SERVES .fries .listOne:hover{
+    width: 250px;
+    margin-top: 40px;
+}
+
+#SERVES .fries .listTwo h3{
+    color: black;
+    position: absolute;
+    margin-top: 240px;
+    margin-left: 15px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    border-bottom: 5px solid black;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+#SERVES .fries .listTwo ul{
+    list-style: none;
+    display: inline-flex;
+    margin-top: 290px;
+    margin-left: -230px;
+    position: absolute;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(29, 29, 28);
+}
+
+#SERVES .fries .listTwo ul li{
+    margin-left: 5px;
+    font-size: 23px;
+}
+
+#SERVES .fries .listTwo ul p{
+    color: black;
+    margin-top: 5px;
+}
+#SERVES .fries .listTwo{
+    transition: 0.5s;
+}
+#SERVES .fries .listTwo:hover{
+    width: 250px;
+    margin-top: 40px;
+}
+
+#SERVES .fries .listThree h3{
+    color: black;
+    position: absolute;
+    margin-top: 240px;
+    margin-left: 15px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    border-bottom: 5px solid black;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+#SERVES .fries .listThree ul{
+    list-style: none;
+    display: inline-flex;
+    margin-top: 290px;
+    margin-left: -230px;
+    position: absolute;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(29, 29, 28);
+}
+
+#SERVES .fries .listThree ul li{
+    margin-left: 5px;
+    font-size: 23px;
+}
+
+#SERVES .fries .listThree ul p{
+    color: black;
+    margin-top: 5px;
+}
+#SERVES .fries .listThree{
+    transition: 0.5s;
+}
+#SERVES .fries .listThree :hover{
+    width: 250px;
+    margin-top: 40px;
+}
+
+#SERVES .fries .listFour h3{
+    color: black;
+    position: absolute;
+    margin-top: 240px;
+    margin-left: 15px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    border-bottom: 5px solid black;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+#SERVES .fries .listFour ul{
+    list-style: none;
+    display: inline-flex;
+    margin-top: 290px;
+    margin-left: -230px;
+    position: absolute;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(29, 29, 28);
+}
+
+#SERVES .fries .listFour ul li{
+    margin-left: 5px;
+    font-size: 23px;
+}
+
+#SERVES .fries .listFour ul p{
+    color: black;
+    margin-top: 5px;
+}
+#SERVES .fries .listFour{
+    transition: 0.5s;
+}
+#SERVES .fries .listFour:hover{
+    width: 250px;
+    margin-top: 40px;
+}
 
 /*LOCATION DETAILS*/
 
