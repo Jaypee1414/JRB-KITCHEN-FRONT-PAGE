@@ -256,7 +256,7 @@ body{
     justify-content: space-around;
     background-color: black;
     height: 88px;
-    border-bottom: 5px solid rgb(35, 126, 179);
+    border-bottom: 5px solid yellowgreen;
 }
 #SERVES .Burger img{
     width: 220px;
@@ -335,6 +335,99 @@ body{
     font-size: 20px;
 }
 
+#SERVES .Burger .listTwo{
+    transition: 0.5s;
+}
+#SERVES .Burger .listTwo:hover{
+    width: 250px;
+    margin-top: 40px;
+}
+
+#SERVES .Burger .listTwo h3{
+    text-align: center;
+    color: black;
+    position: absolute;
+    margin-top: 23px;
+    margin-left: 20px;
+    font-size: 25px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    border-bottom: 5px solid black;
+}
+
+#SERVES .Burger .listTwo .star{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#SERVES .Burger .listTwo .star ul {
+    display:inline-flex;
+    list-style: none;
+    color: rgb(29, 29, 28);
+    margin-left: 93px;
+}
+#SERVES .Burger .listTwo .star ul li{
+    margin-top: 80px;
+    margin-left: 7px;
+    font-size: 20px;
+}
+
+#SERVES .Burger .listTwo p{
+    color: black;
+    position: absolute;
+    margin-top: 83px;
+    margin-left: -63px;
+    font-size: 15px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+#SERVES .Burger .listThree{
+    transition: 0.5s;
+}
+#SERVES .Burger .listThree:hover{
+    width: 250px;
+    margin-top: 40px;
+}
+
+#SERVES .Burger .listThree .star ul {
+    display:inline-flex;
+    list-style: none;
+    color: rgb(29, 29, 28);
+    margin-left: -220px;
+    margin-top: 295px;
+}
+#SERVES .Burger .listThree .star ul li{
+    margin-top: -3px;
+    margin-left: 7px;
+    font-size: 20px;
+}
+
+
+#SERVES .Burger .listThree h3{
+    text-align: center;
+    color: black;
+    position: absolute;
+    margin-top: 235px;
+    margin-left: 20px;
+    font-size: 25px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    border-bottom: 5px solid black;
+}
+
+#SERVES .Burger .listThree .star{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#SERVES .Burger .listThree p{
+    color: black;
+    font-size: 15px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
 
 /*MILK TEA CLASS*/
 
@@ -342,6 +435,7 @@ body{
 #SERVES .Milktea-name{
     background-color: black;
     margin-top: 130px;
+    border-top: 5px solid yellowgreen; /*TRY*/
 }
 #SERVES .Milktea-name h2{
     padding: 20px 40px;
@@ -363,7 +457,7 @@ body{
     justify-content: space-around;
     background-color: black;
     height: 88px;
-    border-bottom: 5px solid rgb(35, 126, 179);
+    border-bottom: 5px solid yellowgreen;
 }
 
 #SERVES .milktea img{
@@ -380,6 +474,7 @@ body{
 #SERVES .Fries-name{
     background-color: black;
     margin-top: 130px;
+    border-top: 5px solid yellowgreen; /*TRY*/
 }
 
 #SERVES .Fries-name h2{
@@ -402,7 +497,7 @@ body{
     justify-content: space-around;
     background-color: black;
     height: 88px;
-    border-bottom: 5px solid rgb(35, 126, 179);
+    border-bottom: 5px solid yellowgreen;
 }
 
 #SERVES .fries img{
@@ -421,8 +516,9 @@ body{
     padding: 20px 40px;
     margin-top: 1700px;
     background-color: black;
-    border-bottom: 5px solid rgb(35, 126, 179);
+    border-bottom: 5px solid yellowgreen;
     height: 450px;
+    border-top: 5px solid yellowgreen ; /*TRY*/
 
 }
 
@@ -480,6 +576,7 @@ body{
     color: white;
     margin-top: 120px;
     height: 180px;
+    border-top: 5px solid yellowgreen ; /*TRY*/
     
 }
 
