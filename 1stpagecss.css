@@ -131,6 +131,12 @@ body{
     text-transform: uppercase;
 }
 
+.main .form{
+    background-color: #ffffff10;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+}
+
 .main .form input{
     width: 240px;
     height: 35px;
@@ -195,6 +201,7 @@ body{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background: transparent;
     transition: 0.2s ease-in-out;
+    border: none;
 }
 
 .main .form .signup .btn-signup a{
